@@ -1,0 +1,13 @@
+#test getting attack from human
+HUMAN harold
+ATTACK harold
+
+REWARD 10 harold
+
+ATTACK harold
+
+REWARD 69420 harold
+
+ATTACK harold
+
+END

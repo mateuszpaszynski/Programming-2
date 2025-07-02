@@ -1,0 +1,24 @@
+#test damaging and curing human
+BEAST bunny
+
+HEALTH bunny
+
+DAMAGE 40 bunny
+
+HEALTH bunny
+
+DAMAGE 100 bunny
+
+HEALTH bunny
+
+#test damage discount after rewarding
+REWARD 40 bunny
+CURE bunny
+
+HEALTH bunny
+
+DAMAGE 150 bunny
+
+HEALTH bunny
+
+END

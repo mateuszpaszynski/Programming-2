@@ -1,0 +1,11 @@
+#test printing params by squad
+three-wise-men:4:100%:116:5
+boomer:50:50:100%:11:10:1
+bunny:150:150:100%:40:20
+gary:200:200:100%:35:5:15
+harold:200:200:100%:30:10:10
+three-wise-men:2:1%:100:5
+destroyer:200:2:1%:70:5
+harold:200:2:1%:30:10:10
+three-wise-men:1:0%:30:10
+harold:200:1:0%:30:10:10

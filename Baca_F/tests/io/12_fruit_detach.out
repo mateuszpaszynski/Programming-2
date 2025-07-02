@@ -1,0 +1,94 @@
+=====BEGIN PRINT=====
+- type: BRANCH_CLASS
+  branch_id: 0
+  path: B0
+  branch_length: 10
+  fruit_total_weight: 20
+  fruit_total_count: 5
+  fruits:
+    - type: FRUIT_CLASS
+      fruit_id: 2
+      path: B0 -> F2
+      fruit_weight: 8
+    - type: FRUIT_CLASS
+      fruit_id: 4
+      path: B0 -> F4
+      fruit_weight: 6
+    - type: FRUIT_CLASS
+      fruit_id: 6
+      path: B0 -> F6
+      fruit_weight: 4
+    - type: FRUIT_CLASS
+      fruit_id: 8
+      path: B0 -> F8
+      fruit_weight: 2
+    - type: FRUIT_CLASS
+      fruit_id: 10
+      path: B0 -> F10
+      fruit_weight: 0
+=====END PRINT=====
+=====BEGIN PRINT=====
+- type: FRUIT_CLASS
+  fruit_id: 4
+  path: B0 -> F4
+  fruit_weight: 6
+=====END PRINT=====
+=====BEGIN PRINT=====
+- type: FRUIT_CLASS
+  fruit_id: 4
+  path: F4
+  fruit_weight: 6
+=====END PRINT=====
+=====BEGIN PRINT=====
+- type: BRANCH_CLASS
+  branch_id: 0
+  path: B0
+  branch_length: 10
+  fruit_total_weight: 20
+  fruit_total_count: 5
+  fruits:
+    - type: FRUIT_CLASS
+      fruit_id: 2
+      path: B0 -> F2
+      fruit_weight: 8
+    - type: FRUIT_CLASS
+      fruit_id: 4
+      path: B0 -> F4
+      fruit_weight: 6
+    - type: FRUIT_CLASS
+      fruit_id: 6
+      path: B0 -> F6
+      fruit_weight: 4
+    - type: FRUIT_CLASS
+      fruit_id: 8
+      path: B0 -> F8
+      fruit_weight: 2
+    - type: FRUIT_CLASS
+      fruit_id: 10
+      path: B0 -> F10
+      fruit_weight: 0
+=====END PRINT=====
+=====BEGIN PRINT=====
+- type: FRUIT_CLASS
+  fruit_id: 4
+  path: B0 -> F4
+  fruit_weight: 6
+=====END PRINT=====
+=====BEGIN PRINT=====
+- type: FRUIT_CLASS
+  fruit_id: 4
+  path: F4
+  fruit_weight: 9
+=====END PRINT=====
+=====BEGIN PRINT=====
+- type: FRUIT_CLASS
+  fruit_id: 4
+  path: F4
+  fruit_weight: 9
+=====END PRINT=====
+=====BEGIN PRINT=====
+- type: FRUIT_CLASS
+  fruit_id: 4
+  path: F4
+  fruit_weight: 7
+=====END PRINT=====

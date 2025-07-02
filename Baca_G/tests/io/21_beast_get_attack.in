@@ -1,0 +1,21 @@
+#test getting attack from beast
+BEAST bunny
+ATTACK bunny
+
+DAMAGE 140 bunny
+
+ATTACK bunny
+
+REWARD 10 bunny
+
+ATTACK bunny
+
+CURE bunny
+
+ATTACK bunny
+
+REWARD 69420 bunny
+
+ATTACK bunny
+
+END

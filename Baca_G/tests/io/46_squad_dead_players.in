@@ -1,0 +1,10 @@
+#test adding dead players to squad
+BEAST mruczek pimpek
+SQUAD meow
+
+KILL pimpek
+ADD meow mruczek pimpek
+
+PRINT meow
+
+END

@@ -1,0 +1,69 @@
+=================================================================
+==16427==ERROR: AddressSanitizer: heap-use-after-free on address 0x5060000001a0 at pc 0x5856b6f79b9d bp 0x7fff10376ea0 sp 0x7fff10376e90
+READ of size 4 at 0x5060000001a0 thread T0
+    #0 0x5856b6f79b9c in TREE_CLASS::getNumber() /tmp/baca_Lj9JQETI/tree.cpp:21
+    #1 0x5856b6f73eec in GARDEN_CLASS::getTreePointer(unsigned int) /tmp/baca_Lj9JQETI/garden.cpp:46
+    #2 0x5856b6f7f416 in print_garden(GARDEN_CLASS*, unsigned char) /tmp/baca_Lj9JQETI/helpers/printer.cpp:205
+    #3 0x5856b6f7f649 in print(GARDEN_CLASS*) /tmp/baca_Lj9JQETI/helpers/printer.cpp:260
+    #4 0x5856b6f93dbe in run() /tmp/baca_Lj9JQETI/src/41_garden_copy.cpp:41
+    #5 0x5856b6f93fe7 in main /tmp/baca_Lj9JQETI/src/41_garden_copy.cpp:63
+    #6 0x73f6a702a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #7 0x73f6a702a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #8 0x5856b6f6d844 in _start (/tmp/baca_Lj9JQETI/bins/41_garden_copy.x+0x43844) (BuildId: 0f209dbf055173f284c16b3222821f433e5e64d2)
+
+0x5060000001a0 is located 0 bytes inside of 56-byte region [0x5060000001a0,0x5060000001d8)
+freed by thread T0 here:
+    #0 0x73f6a80fc4d8 in free ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:52
+    #1 0x5856b6f7fc26 in memory_manager::deallocate(void*) /tmp/baca_Lj9JQETI/helpers/memory_manager.cpp:39
+    #2 0x5856b6f93486 in operator delete(void*) /tmp/baca_Lj9JQETI/helpers/new_delete_overrides.cpp:14
+    #3 0x5856b6f79911 in GARDEN_CLASS::extractTree(unsigned int) /tmp/baca_Lj9JQETI/garden.cpp:438
+    #4 0x5856b6f93da6 in run() /tmp/baca_Lj9JQETI/src/41_garden_copy.cpp:38
+    #5 0x5856b6f93fe7 in main /tmp/baca_Lj9JQETI/src/41_garden_copy.cpp:63
+    #6 0x73f6a702a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #7 0x73f6a702a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #8 0x5856b6f6d844 in _start (/tmp/baca_Lj9JQETI/bins/41_garden_copy.x+0x43844) (BuildId: 0f209dbf055173f284c16b3222821f433e5e64d2)
+
+previously allocated by thread T0 here:
+    #0 0x73f6a80fd9c7 in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:69
+    #1 0x5856b6f7f733 in memory_manager::allocate(unsigned long) /tmp/baca_Lj9JQETI/helpers/memory_manager.cpp:11
+    #2 0x5856b6f933f2 in operator new(unsigned long) /tmp/baca_Lj9JQETI/helpers/new_delete_overrides.cpp:8
+    #3 0x5856b6f774fe in GARDEN_CLASS::plantTree() /tmp/baca_Lj9JQETI/garden.cpp:312
+    #4 0x5856b6f93962 in run() /tmp/baca_Lj9JQETI/src/41_garden_copy.cpp:12
+    #5 0x5856b6f93fe7 in main /tmp/baca_Lj9JQETI/src/41_garden_copy.cpp:63
+    #6 0x73f6a702a1c9 in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #7 0x73f6a702a28a in __libc_start_main_impl ../csu/libc-start.c:360
+    #8 0x5856b6f6d844 in _start (/tmp/baca_Lj9JQETI/bins/41_garden_copy.x+0x43844) (BuildId: 0f209dbf055173f284c16b3222821f433e5e64d2)
+
+SUMMARY: AddressSanitizer: heap-use-after-free /tmp/baca_Lj9JQETI/tree.cpp:21 in TREE_CLASS::getNumber()
+Shadow bytes around the buggy address:
+  0x505fffffff00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x505fffffff80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x506000000000: fa fa fa fa 00 00 00 00 00 00 00 00 fa fa fa fa
+  0x506000000080: 00 00 00 00 00 00 00 fa fa fa fa fa 00 00 00 00
+  0x506000000100: 00 00 00 fa fa fa fa fa fd fd fd fd fd fd fd fa
+=>0x506000000180: fa fa fa fa[fd]fd fd fd fd fd fd fa fa fa fa fa
+  0x506000000200: 00 00 00 00 00 00 00 00 fa fa fa fa fa fa fa fa
+  0x506000000280: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x506000000300: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x506000000380: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x506000000400: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==16427==ABORTING

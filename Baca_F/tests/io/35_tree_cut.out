@@ -1,0 +1,582 @@
+=====BEGIN PRINT=====
+- type: TREE_CLASS
+  tree_id: 0
+  path: T0
+  tree_height: 30
+  fruit_total_weight: 575
+  fruit_total_count: 65
+  branch_total_count: 10
+  branches:
+    - type: BRANCH_CLASS
+      branch_id: 3
+      path: T0 -> B3
+      branch_length: 27
+      fruit_total_weight: 169
+      fruit_total_count: 13
+      fruits:
+        - type: FRUIT_CLASS
+          fruit_id: 2
+          path: T0 -> B3 -> F2
+          fruit_weight: 25
+        - type: FRUIT_CLASS
+          fruit_id: 4
+          path: T0 -> B3 -> F4
+          fruit_weight: 23
+        - type: FRUIT_CLASS
+          fruit_id: 6
+          path: T0 -> B3 -> F6
+          fruit_weight: 21
+        - type: FRUIT_CLASS
+          fruit_id: 8
+          path: T0 -> B3 -> F8
+          fruit_weight: 19
+        - type: FRUIT_CLASS
+          fruit_id: 10
+          path: T0 -> B3 -> F10
+          fruit_weight: 17
+        - type: FRUIT_CLASS
+          fruit_id: 12
+          path: T0 -> B3 -> F12
+          fruit_weight: 15
+        - type: FRUIT_CLASS
+          fruit_id: 14
+          path: T0 -> B3 -> F14
+          fruit_weight: 13
+        - type: FRUIT_CLASS
+          fruit_id: 16
+          path: T0 -> B3 -> F16
+          fruit_weight: 11
+        - type: FRUIT_CLASS
+          fruit_id: 18
+          path: T0 -> B3 -> F18
+          fruit_weight: 9
+        - type: FRUIT_CLASS
+          fruit_id: 20
+          path: T0 -> B3 -> F20
+          fruit_weight: 7
+        - type: FRUIT_CLASS
+          fruit_id: 22
+          path: T0 -> B3 -> F22
+          fruit_weight: 5
+        - type: FRUIT_CLASS
+          fruit_id: 24
+          path: T0 -> B3 -> F24
+          fruit_weight: 3
+        - type: FRUIT_CLASS
+          fruit_id: 26
+          path: T0 -> B3 -> F26
+          fruit_weight: 1
+    - type: BRANCH_CLASS
+      branch_id: 6
+      path: T0 -> B6
+      branch_length: 24
+      fruit_total_weight: 132
+      fruit_total_count: 12
+      fruits:
+        - type: FRUIT_CLASS
+          fruit_id: 2
+          path: T0 -> B6 -> F2
+          fruit_weight: 22
+        - type: FRUIT_CLASS
+          fruit_id: 4
+          path: T0 -> B6 -> F4
+          fruit_weight: 20
+        - type: FRUIT_CLASS
+          fruit_id: 6
+          path: T0 -> B6 -> F6
+          fruit_weight: 18
+        - type: FRUIT_CLASS
+          fruit_id: 8
+          path: T0 -> B6 -> F8
+          fruit_weight: 16
+        - type: FRUIT_CLASS
+          fruit_id: 10
+          path: T0 -> B6 -> F10
+          fruit_weight: 14
+        - type: FRUIT_CLASS
+          fruit_id: 12
+          path: T0 -> B6 -> F12
+          fruit_weight: 12
+        - type: FRUIT_CLASS
+          fruit_id: 14
+          path: T0 -> B6 -> F14
+          fruit_weight: 10
+        - type: FRUIT_CLASS
+          fruit_id: 16
+          path: T0 -> B6 -> F16
+          fruit_weight: 8
+        - type: FRUIT_CLASS
+          fruit_id: 18
+          path: T0 -> B6 -> F18
+          fruit_weight: 6
+        - type: FRUIT_CLASS
+          fruit_id: 20
+          path: T0 -> B6 -> F20
+          fruit_weight: 4
+        - type: FRUIT_CLASS
+          fruit_id: 22
+          path: T0 -> B6 -> F22
+          fruit_weight: 2
+        - type: FRUIT_CLASS
+          fruit_id: 24
+          path: T0 -> B6 -> F24
+          fruit_weight: 0
+    - type: BRANCH_CLASS
+      branch_id: 9
+      path: T0 -> B9
+      branch_length: 21
+      fruit_total_weight: 100
+      fruit_total_count: 10
+      fruits:
+        - type: FRUIT_CLASS
+          fruit_id: 2
+          path: T0 -> B9 -> F2
+          fruit_weight: 19
+        - type: FRUIT_CLASS
+          fruit_id: 4
+          path: T0 -> B9 -> F4
+          fruit_weight: 17
+        - type: FRUIT_CLASS
+          fruit_id: 6
+          path: T0 -> B9 -> F6
+          fruit_weight: 15
+        - type: FRUIT_CLASS
+          fruit_id: 8
+          path: T0 -> B9 -> F8
+          fruit_weight: 13
+        - type: FRUIT_CLASS
+          fruit_id: 10
+          path: T0 -> B9 -> F10
+          fruit_weight: 11
+        - type: FRUIT_CLASS
+          fruit_id: 12
+          path: T0 -> B9 -> F12
+          fruit_weight: 9
+        - type: FRUIT_CLASS
+          fruit_id: 14
+          path: T0 -> B9 -> F14
+          fruit_weight: 7
+        - type: FRUIT_CLASS
+          fruit_id: 16
+          path: T0 -> B9 -> F16
+          fruit_weight: 5
+        - type: FRUIT_CLASS
+          fruit_id: 18
+          path: T0 -> B9 -> F18
+          fruit_weight: 3
+        - type: FRUIT_CLASS
+          fruit_id: 20
+          path: T0 -> B9 -> F20
+          fruit_weight: 1
+    - type: BRANCH_CLASS
+      branch_id: 12
+      path: T0 -> B12
+      branch_length: 18
+      fruit_total_weight: 72
+      fruit_total_count: 9
+      fruits:
+        - type: FRUIT_CLASS
+          fruit_id: 2
+          path: T0 -> B12 -> F2
+          fruit_weight: 16
+        - type: FRUIT_CLASS
+          fruit_id: 4
+          path: T0 -> B12 -> F4
+          fruit_weight: 14
+        - type: FRUIT_CLASS
+          fruit_id: 6
+          path: T0 -> B12 -> F6
+          fruit_weight: 12
+        - type: FRUIT_CLASS
+          fruit_id: 8
+          path: T0 -> B12 -> F8
+          fruit_weight: 10
+        - type: FRUIT_CLASS
+          fruit_id: 10
+          path: T0 -> B12 -> F10
+          fruit_weight: 8
+        - type: FRUIT_CLASS
+          fruit_id: 12
+          path: T0 -> B12 -> F12
+          fruit_weight: 6
+        - type: FRUIT_CLASS
+          fruit_id: 14
+          path: T0 -> B12 -> F14
+          fruit_weight: 4
+        - type: FRUIT_CLASS
+          fruit_id: 16
+          path: T0 -> B12 -> F16
+          fruit_weight: 2
+        - type: FRUIT_CLASS
+          fruit_id: 18
+          path: T0 -> B12 -> F18
+          fruit_weight: 0
+    - type: BRANCH_CLASS
+      branch_id: 15
+      path: T0 -> B15
+      branch_length: 15
+      fruit_total_weight: 49
+      fruit_total_count: 7
+      fruits:
+        - type: FRUIT_CLASS
+          fruit_id: 2
+          path: T0 -> B15 -> F2
+          fruit_weight: 13
+        - type: FRUIT_CLASS
+          fruit_id: 4
+          path: T0 -> B15 -> F4
+          fruit_weight: 11
+        - type: FRUIT_CLASS
+          fruit_id: 6
+          path: T0 -> B15 -> F6
+          fruit_weight: 9
+        - type: FRUIT_CLASS
+          fruit_id: 8
+          path: T0 -> B15 -> F8
+          fruit_weight: 7
+        - type: FRUIT_CLASS
+          fruit_id: 10
+          path: T0 -> B15 -> F10
+          fruit_weight: 5
+        - type: FRUIT_CLASS
+          fruit_id: 12
+          path: T0 -> B15 -> F12
+          fruit_weight: 3
+        - type: FRUIT_CLASS
+          fruit_id: 14
+          path: T0 -> B15 -> F14
+          fruit_weight: 1
+    - type: BRANCH_CLASS
+      branch_id: 18
+      path: T0 -> B18
+      branch_length: 12
+      fruit_total_weight: 30
+      fruit_total_count: 6
+      fruits:
+        - type: FRUIT_CLASS
+          fruit_id: 2
+          path: T0 -> B18 -> F2
+          fruit_weight: 10
+        - type: FRUIT_CLASS
+          fruit_id: 4
+          path: T0 -> B18 -> F4
+          fruit_weight: 8
+        - type: FRUIT_CLASS
+          fruit_id: 6
+          path: T0 -> B18 -> F6
+          fruit_weight: 6
+        - type: FRUIT_CLASS
+          fruit_id: 8
+          path: T0 -> B18 -> F8
+          fruit_weight: 4
+        - type: FRUIT_CLASS
+          fruit_id: 10
+          path: T0 -> B18 -> F10
+          fruit_weight: 2
+        - type: FRUIT_CLASS
+          fruit_id: 12
+          path: T0 -> B18 -> F12
+          fruit_weight: 0
+    - type: BRANCH_CLASS
+      branch_id: 21
+      path: T0 -> B21
+      branch_length: 9
+      fruit_total_weight: 16
+      fruit_total_count: 4
+      fruits:
+        - type: FRUIT_CLASS
+          fruit_id: 2
+          path: T0 -> B21 -> F2
+          fruit_weight: 7
+        - type: FRUIT_CLASS
+          fruit_id: 4
+          path: T0 -> B21 -> F4
+          fruit_weight: 5
+        - type: FRUIT_CLASS
+          fruit_id: 6
+          path: T0 -> B21 -> F6
+          fruit_weight: 3
+        - type: FRUIT_CLASS
+          fruit_id: 8
+          path: T0 -> B21 -> F8
+          fruit_weight: 1
+    - type: BRANCH_CLASS
+      branch_id: 24
+      path: T0 -> B24
+      branch_length: 6
+      fruit_total_weight: 6
+      fruit_total_count: 3
+      fruits:
+        - type: FRUIT_CLASS
+          fruit_id: 2
+          path: T0 -> B24 -> F2
+          fruit_weight: 4
+        - type: FRUIT_CLASS
+          fruit_id: 4
+          path: T0 -> B24 -> F4
+          fruit_weight: 2
+        - type: FRUIT_CLASS
+          fruit_id: 6
+          path: T0 -> B24 -> F6
+          fruit_weight: 0
+    - type: BRANCH_CLASS
+      branch_id: 27
+      path: T0 -> B27
+      branch_length: 3
+      fruit_total_weight: 1
+      fruit_total_count: 1
+      fruits:
+        - type: FRUIT_CLASS
+          fruit_id: 2
+          path: T0 -> B27 -> F2
+          fruit_weight: 1
+    - type: BRANCH_CLASS
+      branch_id: 30
+      path: T0 -> B30
+      branch_length: 0
+      fruit_total_weight: 0
+      fruit_total_count: 0
+      fruits: NONE
+=====END PRINT=====
+=====BEGIN PRINT=====
+- type: TREE_CLASS
+  tree_id: 0
+  path: T0
+  tree_height: 0
+  fruit_total_weight: 0
+  fruit_total_count: 0
+  branch_total_count: 0
+  branches: NONE
+=====END PRINT=====
+=====BEGIN PRINT=====
+- type: TREE_CLASS
+  tree_id: 0
+  path: T0
+  tree_height: 10
+  fruit_total_weight: 401
+  fruit_total_count: 35
+  branch_total_count: 3
+  branches:
+    - type: BRANCH_CLASS
+      branch_id: 3
+      path: T0 -> B3
+      branch_length: 27
+      fruit_total_weight: 169
+      fruit_total_count: 13
+      fruits:
+        - type: FRUIT_CLASS
+          fruit_id: 2
+          path: T0 -> B3 -> F2
+          fruit_weight: 25
+        - type: FRUIT_CLASS
+          fruit_id: 4
+          path: T0 -> B3 -> F4
+          fruit_weight: 23
+        - type: FRUIT_CLASS
+          fruit_id: 6
+          path: T0 -> B3 -> F6
+          fruit_weight: 21
+        - type: FRUIT_CLASS
+          fruit_id: 8
+          path: T0 -> B3 -> F8
+          fruit_weight: 19
+        - type: FRUIT_CLASS
+          fruit_id: 10
+          path: T0 -> B3 -> F10
+          fruit_weight: 17
+        - type: FRUIT_CLASS
+          fruit_id: 12
+          path: T0 -> B3 -> F12
+          fruit_weight: 15
+        - type: FRUIT_CLASS
+          fruit_id: 14
+          path: T0 -> B3 -> F14
+          fruit_weight: 13
+        - type: FRUIT_CLASS
+          fruit_id: 16
+          path: T0 -> B3 -> F16
+          fruit_weight: 11
+        - type: FRUIT_CLASS
+          fruit_id: 18
+          path: T0 -> B3 -> F18
+          fruit_weight: 9
+        - type: FRUIT_CLASS
+          fruit_id: 20
+          path: T0 -> B3 -> F20
+          fruit_weight: 7
+        - type: FRUIT_CLASS
+          fruit_id: 22
+          path: T0 -> B3 -> F22
+          fruit_weight: 5
+        - type: FRUIT_CLASS
+          fruit_id: 24
+          path: T0 -> B3 -> F24
+          fruit_weight: 3
+        - type: FRUIT_CLASS
+          fruit_id: 26
+          path: T0 -> B3 -> F26
+          fruit_weight: 1
+    - type: BRANCH_CLASS
+      branch_id: 6
+      path: T0 -> B6
+      branch_length: 24
+      fruit_total_weight: 132
+      fruit_total_count: 12
+      fruits:
+        - type: FRUIT_CLASS
+          fruit_id: 2
+          path: T0 -> B6 -> F2
+          fruit_weight: 22
+        - type: FRUIT_CLASS
+          fruit_id: 4
+          path: T0 -> B6 -> F4
+          fruit_weight: 20
+        - type: FRUIT_CLASS
+          fruit_id: 6
+          path: T0 -> B6 -> F6
+          fruit_weight: 18
+        - type: FRUIT_CLASS
+          fruit_id: 8
+          path: T0 -> B6 -> F8
+          fruit_weight: 16
+        - type: FRUIT_CLASS
+          fruit_id: 10
+          path: T0 -> B6 -> F10
+          fruit_weight: 14
+        - type: FRUIT_CLASS
+          fruit_id: 12
+          path: T0 -> B6 -> F12
+          fruit_weight: 12
+        - type: FRUIT_CLASS
+          fruit_id: 14
+          path: T0 -> B6 -> F14
+          fruit_weight: 10
+        - type: FRUIT_CLASS
+          fruit_id: 16
+          path: T0 -> B6 -> F16
+          fruit_weight: 8
+        - type: FRUIT_CLASS
+          fruit_id: 18
+          path: T0 -> B6 -> F18
+          fruit_weight: 6
+        - type: FRUIT_CLASS
+          fruit_id: 20
+          path: T0 -> B6 -> F20
+          fruit_weight: 4
+        - type: FRUIT_CLASS
+          fruit_id: 22
+          path: T0 -> B6 -> F22
+          fruit_weight: 2
+        - type: FRUIT_CLASS
+          fruit_id: 24
+          path: T0 -> B6 -> F24
+          fruit_weight: 0
+    - type: BRANCH_CLASS
+      branch_id: 9
+      path: T0 -> B9
+      branch_length: 21
+      fruit_total_weight: 100
+      fruit_total_count: 10
+      fruits:
+        - type: FRUIT_CLASS
+          fruit_id: 2
+          path: T0 -> B9 -> F2
+          fruit_weight: 19
+        - type: FRUIT_CLASS
+          fruit_id: 4
+          path: T0 -> B9 -> F4
+          fruit_weight: 17
+        - type: FRUIT_CLASS
+          fruit_id: 6
+          path: T0 -> B9 -> F6
+          fruit_weight: 15
+        - type: FRUIT_CLASS
+          fruit_id: 8
+          path: T0 -> B9 -> F8
+          fruit_weight: 13
+        - type: FRUIT_CLASS
+          fruit_id: 10
+          path: T0 -> B9 -> F10
+          fruit_weight: 11
+        - type: FRUIT_CLASS
+          fruit_id: 12
+          path: T0 -> B9 -> F12
+          fruit_weight: 9
+        - type: FRUIT_CLASS
+          fruit_id: 14
+          path: T0 -> B9 -> F14
+          fruit_weight: 7
+        - type: FRUIT_CLASS
+          fruit_id: 16
+          path: T0 -> B9 -> F16
+          fruit_weight: 5
+        - type: FRUIT_CLASS
+          fruit_id: 18
+          path: T0 -> B9 -> F18
+          fruit_weight: 3
+        - type: FRUIT_CLASS
+          fruit_id: 20
+          path: T0 -> B9 -> F20
+          fruit_weight: 1
+=====END PRINT=====
+=====BEGIN PRINT=====
+- type: TREE_CLASS
+  tree_id: 0
+  path: T0
+  tree_height: 5
+  fruit_total_weight: 110
+  fruit_total_count: 11
+  branch_total_count: 1
+  branches:
+    - type: BRANCH_CLASS
+      branch_id: 3
+      path: T0 -> B3
+      branch_length: 22
+      fruit_total_weight: 110
+      fruit_total_count: 11
+      fruits:
+        - type: FRUIT_CLASS
+          fruit_id: 2
+          path: T0 -> B3 -> F2
+          fruit_weight: 20
+        - type: FRUIT_CLASS
+          fruit_id: 4
+          path: T0 -> B3 -> F4
+          fruit_weight: 18
+        - type: FRUIT_CLASS
+          fruit_id: 6
+          path: T0 -> B3 -> F6
+          fruit_weight: 16
+        - type: FRUIT_CLASS
+          fruit_id: 8
+          path: T0 -> B3 -> F8
+          fruit_weight: 14
+        - type: FRUIT_CLASS
+          fruit_id: 10
+          path: T0 -> B3 -> F10
+          fruit_weight: 12
+        - type: FRUIT_CLASS
+          fruit_id: 12
+          path: T0 -> B3 -> F12
+          fruit_weight: 10
+        - type: FRUIT_CLASS
+          fruit_id: 14
+          path: T0 -> B3 -> F14
+          fruit_weight: 8
+        - type: FRUIT_CLASS
+          fruit_id: 16
+          path: T0 -> B3 -> F16
+          fruit_weight: 6
+        - type: FRUIT_CLASS
+          fruit_id: 18
+          path: T0 -> B3 -> F18
+          fruit_weight: 4
+        - type: FRUIT_CLASS
+          fruit_id: 20
+          path: T0 -> B3 -> F20
+          fruit_weight: 2
+        - type: FRUIT_CLASS
+          fruit_id: 22
+          path: T0 -> B3 -> F22
+          fruit_weight: 0
+=====END PRINT=====

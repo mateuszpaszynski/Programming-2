@@ -1,0 +1,29 @@
+#test sorting capacbilities of a squad
+HUMAN harold donald batyr
+BEAST mruczek bunny zazu
+BERSERKER gary destroyer
+CREEPER boomer pig
+
+SQUAD super-partia
+ADD super-partia harold donald batyr mruczek bunny zazu gary-destroyer boomer pig
+
+PRINT super-partia
+
+KILL pig
+
+#print after kill
+PRINT super-partia
+
+#don't do that
+HUMAN gary
+
+ADD super-partia gary
+
+PRINT super-partia
+
+#swap garies
+DAMAGE 100 gary-destroyer
+
+PRINT super-partia
+
+END

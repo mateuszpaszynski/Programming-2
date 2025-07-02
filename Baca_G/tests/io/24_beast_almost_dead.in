@@ -1,0 +1,11 @@
+#test whether death or life is determined by percentage or value
+BEAST bunny
+
+PRINT bunny
+
+#should leave only 1 health point
+DAMAGE 159 bunny
+
+PRINT bunny
+
+END

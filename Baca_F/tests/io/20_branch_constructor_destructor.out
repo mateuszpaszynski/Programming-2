@@ -1,0 +1,58 @@
+=====BEGIN PRINT=====
+- type: BRANCH_CLASS
+  branch_id: 0
+  path: B0
+  branch_length: 0
+  fruit_total_weight: 0
+  fruit_total_count: 0
+  fruits: NONE
+=====END PRINT=====
+=====BEGIN PRINT=====
+- type: BRANCH_CLASS
+  branch_id: 0
+  path: B0
+  branch_length: 20
+  fruit_total_weight: 90
+  fruit_total_count: 10
+  fruits:
+    - type: FRUIT_CLASS
+      fruit_id: 2
+      path: B0 -> F2
+      fruit_weight: 18
+    - type: FRUIT_CLASS
+      fruit_id: 4
+      path: B0 -> F4
+      fruit_weight: 16
+    - type: FRUIT_CLASS
+      fruit_id: 6
+      path: B0 -> F6
+      fruit_weight: 14
+    - type: FRUIT_CLASS
+      fruit_id: 8
+      path: B0 -> F8
+      fruit_weight: 12
+    - type: FRUIT_CLASS
+      fruit_id: 10
+      path: B0 -> F10
+      fruit_weight: 10
+    - type: FRUIT_CLASS
+      fruit_id: 12
+      path: B0 -> F12
+      fruit_weight: 8
+    - type: FRUIT_CLASS
+      fruit_id: 14
+      path: B0 -> F14
+      fruit_weight: 6
+    - type: FRUIT_CLASS
+      fruit_id: 16
+      path: B0 -> F16
+      fruit_weight: 4
+    - type: FRUIT_CLASS
+      fruit_id: 18
+      path: B0 -> F18
+      fruit_weight: 2
+    - type: FRUIT_CLASS
+      fruit_id: 20
+      path: B0 -> F20
+      fruit_weight: 0
+=====END PRINT=====

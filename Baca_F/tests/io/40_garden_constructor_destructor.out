@@ -1,0 +1,16 @@
+=====BEGIN PRINT=====
+- type: GARDEN_CLASS
+  fruit_total_weight: 0
+  fruit_total_count: 0
+  branch_total_count: 0
+  tree_total_count: 1
+  trees:
+    - type: TREE_CLASS
+      tree_id: 0
+      path: G -> T0
+      tree_height: 0
+      fruit_total_weight: 0
+      fruit_total_count: 0
+      branch_total_count: 0
+      branches: NONE
+=====END PRINT=====

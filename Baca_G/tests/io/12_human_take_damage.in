@@ -1,0 +1,24 @@
+#test damaging and curing human
+HUMAN harold
+
+HEALTH harold
+
+DAMAGE 40 harold
+
+HEALTH harold
+
+DAMAGE 100 harold
+
+HEALTH harold
+
+#test damage discount after rewarding
+REWARD 40 harold
+CURE harold
+
+HEALTH harold
+
+DAMAGE 150 harold
+
+HEALTH harold
+
+END

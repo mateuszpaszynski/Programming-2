@@ -1,0 +1,11 @@
+#test whether death or life is determined by percentage or value
+HUMAN harold
+
+PRINT harold
+
+#should leave only 1 health point
+DAMAGE 219 harold
+
+PRINT harold
+
+END

@@ -1,0 +1,67 @@
+DLC
+
+PRT
+
+DLC
+DLC
+
+PRT
+
+
+ALR 5
+11 12 13 14 15
+
+ALR 3
+21 22 23
+
+ALR 8
+31 32 33 34 35 36 37 38
+
+ALR 1
+41
+
+ALR 9
+51 52 53 54 55 56 57 58 59
+
+ALR 7
+71 72 73 74 75 76 77
+
+ALR 1
+81
+
+ALR 1
+91
+
+PRT
+
+DLC
+
+PRT
+
+DLC
+DLC
+DLC
+
+PRT
+
+RMB 0 10 0 10
+
+PRT
+
+ALR 1
+11
+
+ALR 1
+12
+
+ALR 1
+13
+
+ALR 1
+14
+
+DLC
+
+PRT
+
+END

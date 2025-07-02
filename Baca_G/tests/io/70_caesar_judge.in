@@ -1,0 +1,37 @@
+HUMAN h1 h2 h3 h4 h5 h6 h7 h8 h9 h10 h11 h12 h13 h14 h15 h16
+
+SQUAD humans1 humans2
+
+ADD humans1 h1 h2 h3 h4 h5 h6 h7
+ADD humans2 h8 h9 h10 h11 h12 h13 h14 h15 h16
+
+
+BEAST b1 b2 b3 b4 b5 b6 b7
+
+SQUAD beasts1 beasts2
+
+ADD beasts1 b1 b2 b3 b4
+ADD beasts2 b5 b6 b7
+
+
+BERSERKER bh1 bb1 bh2 bb2 bh3 bb3 bh4 bb4 bh5 bb5
+
+SQUAD berserkers1 berserkers2
+
+ADD berserkers1 bh1-bb1 bh2-bb2 bh3-bb3
+ADD berserkers2 bh4-bb4 bh5-bb5
+
+FIGHT humans1 beasts2
+FIGHT humans2 berserkers1
+FIGHT humans1 humans1
+FIGHT berserkers2 humans2
+FIGHT beasts2 beasts1
+FIGHT beasts1 humans2
+FIGHT humans1 beasts2
+FIGHT humans2 berserkers1
+FIGHT humans1 humans1
+FIGHT berserkers2 humans2
+FIGHT beasts2 beasts1
+FIGHT beasts1 humans2
+
+END

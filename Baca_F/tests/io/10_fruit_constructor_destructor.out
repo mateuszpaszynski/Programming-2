@@ -1,0 +1,6 @@
+=====BEGIN PRINT=====
+- type: FRUIT_CLASS
+  fruit_id: 0
+  path: F0
+  fruit_weight: 0
+=====END PRINT=====

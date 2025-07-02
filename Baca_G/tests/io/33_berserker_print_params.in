@@ -1,0 +1,33 @@
+#test print
+BERSERKER gary destroyer
+PRINT gary-destroyer
+
+REWARD 20 gary-destroyer
+
+PRINT gary-destroyer
+
+DAMAGE 120 gary-destroyer
+
+PRINT gary-destroyer
+
+REWARD 100 gary-destroyer
+
+PRINT gary-destroyer
+
+CURE gary-destroyer
+
+PRINT gary-destroyer
+
+DAMAGE 450 gary-destroyer
+
+PRINT gary-destroyer
+
+CURE gary-destroyer
+
+PRINT gary-destroyer
+
+KILL gary-destroyer
+
+PRINT gary-destroyer
+
+END

@@ -1,0 +1,11 @@
+#test whether death or life is determined by percentage or value
+BERSERKER gary destroyer
+
+PRINT gary-destroyer
+
+#should leave only 1 health point
+DAMAGE 219 gary-destroyer
+
+PRINT gary-destroyer
+
+END

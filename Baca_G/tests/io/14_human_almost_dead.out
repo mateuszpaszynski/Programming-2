@@ -1,0 +1,4 @@
+#test whether death or life is determined by percentage or value
+harold:200:200:100%:30:10:10
+#should leave only 1 health point
+harold:200:1:0%:30:10:10

@@ -1,0 +1,112 @@
+=====BEGIN PRINT=====
+- type: GARDEN_CLASS
+  fruit_total_weight: 0
+  fruit_total_count: 0
+  branch_total_count: 0
+  tree_total_count: 13
+  trees:
+    - type: TREE_CLASS
+      tree_id: 0
+      path: G -> T0
+      tree_height: 0
+      fruit_total_weight: 0
+      fruit_total_count: 0
+      branch_total_count: 0
+      branches: NONE
+    - type: TREE_CLASS
+      tree_id: 1
+      path: G -> T1
+      tree_height: 0
+      fruit_total_weight: 0
+      fruit_total_count: 0
+      branch_total_count: 0
+      branches: NONE
+    - type: TREE_CLASS
+      tree_id: 2
+      path: G -> T2
+      tree_height: 0
+      fruit_total_weight: 0
+      fruit_total_count: 0
+      branch_total_count: 0
+      branches: NONE
+    - type: TREE_CLASS
+      tree_id: 3
+      path: G -> T3
+      tree_height: 0
+      fruit_total_weight: 0
+      fruit_total_count: 0
+      branch_total_count: 0
+      branches: NONE
+    - type: TREE_CLASS
+      tree_id: 4
+      path: G -> T4
+      tree_height: 0
+      fruit_total_weight: 0
+      fruit_total_count: 0
+      branch_total_count: 0
+      branches: NONE
+    - type: TREE_CLASS
+      tree_id: 5
+      path: G -> T5
+      tree_height: 0
+      fruit_total_weight: 0
+      fruit_total_count: 0
+      branch_total_count: 0
+      branches: NONE
+    - type: TREE_CLASS
+      tree_id: 6
+      path: G -> T6
+      tree_height: 0
+      fruit_total_weight: 0
+      fruit_total_count: 0
+      branch_total_count: 0
+      branches: NONE
+    - type: TREE_CLASS
+      tree_id: 14
+      path: G -> T14
+      tree_height: 0
+      fruit_total_weight: 0
+      fruit_total_count: 0
+      branch_total_count: 0
+      branches: NONE
+    - type: TREE_CLASS
+      tree_id: 15
+      path: G -> T15
+      tree_height: 0
+      fruit_total_weight: 0
+      fruit_total_count: 0
+      branch_total_count: 0
+      branches: NONE
+    - type: TREE_CLASS
+      tree_id: 16
+      path: G -> T16
+      tree_height: 0
+      fruit_total_weight: 0
+      fruit_total_count: 0
+      branch_total_count: 0
+      branches: NONE
+    - type: TREE_CLASS
+      tree_id: 17
+      path: G -> T17
+      tree_height: 0
+      fruit_total_weight: 0
+      fruit_total_count: 0
+      branch_total_count: 0
+      branches: NONE
+    - type: TREE_CLASS
+      tree_id: 18
+      path: G -> T18
+      tree_height: 0
+      fruit_total_weight: 0
+      fruit_total_count: 0
+      branch_total_count: 0
+      branches: NONE
+    - type: TREE_CLASS
+      tree_id: 19
+      path: G -> T19
+      tree_height: 0
+      fruit_total_weight: 0
+      fruit_total_count: 0
+      branch_total_count: 0
+      branches: NONE
+=====END PRINT=====

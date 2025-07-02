@@ -1,0 +1,25 @@
+#test print
+HUMAN harold
+PRINT harold
+
+REWARD 20 harold
+
+PRINT harold
+
+DAMAGE 200 harold
+
+PRINT harold
+
+REWARD 100 harold
+
+PRINT harold
+
+CURE harold
+
+PRINT harold
+
+KILL harold
+
+PRINT harold
+
+END

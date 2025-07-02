@@ -1,0 +1,4 @@
+#test whether death or life is determined by percentage or value
+bunny:150:150:100%:40:20
+#should leave only 1 health point
+bunny:150:1:0%:80:20

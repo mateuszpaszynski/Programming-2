@@ -1,0 +1,13 @@
+#test getting agility from human
+HUMAN harold
+AGILITY harold
+
+REWARD 10 harold
+
+AGILITY harold
+
+REWARD 69420 harold
+
+AGILITY harold
+
+END

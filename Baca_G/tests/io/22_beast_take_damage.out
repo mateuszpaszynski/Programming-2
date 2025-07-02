@@ -1,0 +1,7 @@
+#test damaging and curing human
+bunny: 100% health
+bunny: 80% health
+bunny: 20% health
+#test damage discount after rewarding
+bunny: 100% health
+bunny: 33% health

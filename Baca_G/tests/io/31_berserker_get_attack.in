@@ -1,0 +1,25 @@
+#test getting attack from beast
+BERSERKER gary destroyer
+ATTACK gary-destroyer
+
+DAMAGE 140 gary-destroyer
+
+ATTACK gary-destroyer
+
+REWARD 10 gary-destroyer
+
+ATTACK gary-destroyer
+
+CURE gary-destroyer
+
+ATTACK gary-destroyer
+
+DAMAGE 230 gary-destroyer
+
+ATTACK gary-destroyer
+
+REWARD 69420 gary-destroyer
+
+ATTACK gary-destroyer
+
+END

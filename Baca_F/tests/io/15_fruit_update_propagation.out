@@ -1,0 +1,108 @@
+=====BEGIN PRINT=====
+- type: GARDEN_CLASS
+  fruit_total_weight: 0
+  fruit_total_count: 1
+  branch_total_count: 1
+  tree_total_count: 1
+  trees:
+    - type: TREE_CLASS
+      tree_id: 0
+      path: G -> T0
+      tree_height: 5
+      fruit_total_weight: 0
+      fruit_total_count: 1
+      branch_total_count: 1
+      branches:
+        - type: BRANCH_CLASS
+          branch_id: 3
+          path: G -> T0 -> B3
+          branch_length: 2
+          fruit_total_weight: 0
+          fruit_total_count: 1
+          fruits:
+            - type: FRUIT_CLASS
+              fruit_id: 2
+              path: G -> T0 -> B3 -> F2
+              fruit_weight: 0
+=====END PRINT=====
+=====BEGIN PRINT=====
+- type: GARDEN_CLASS
+  fruit_total_weight: 10
+  fruit_total_count: 1
+  branch_total_count: 1
+  tree_total_count: 1
+  trees:
+    - type: TREE_CLASS
+      tree_id: 0
+      path: G -> T0
+      tree_height: 5
+      fruit_total_weight: 10
+      fruit_total_count: 1
+      branch_total_count: 1
+      branches:
+        - type: BRANCH_CLASS
+          branch_id: 3
+          path: G -> T0 -> B3
+          branch_length: 2
+          fruit_total_weight: 10
+          fruit_total_count: 1
+          fruits:
+            - type: FRUIT_CLASS
+              fruit_id: 2
+              path: G -> T0 -> B3 -> F2
+              fruit_weight: 10
+=====END PRINT=====
+=====BEGIN PRINT=====
+- type: GARDEN_CLASS
+  fruit_total_weight: 5
+  fruit_total_count: 1
+  branch_total_count: 1
+  tree_total_count: 1
+  trees:
+    - type: TREE_CLASS
+      tree_id: 0
+      path: G -> T0
+      tree_height: 5
+      fruit_total_weight: 5
+      fruit_total_count: 1
+      branch_total_count: 1
+      branches:
+        - type: BRANCH_CLASS
+          branch_id: 3
+          path: G -> T0 -> B3
+          branch_length: 2
+          fruit_total_weight: 5
+          fruit_total_count: 1
+          fruits:
+            - type: FRUIT_CLASS
+              fruit_id: 2
+              path: G -> T0 -> B3 -> F2
+              fruit_weight: 5
+=====END PRINT=====
+=====BEGIN PRINT=====
+- type: GARDEN_CLASS
+  fruit_total_weight: 0
+  fruit_total_count: 1
+  branch_total_count: 1
+  tree_total_count: 1
+  trees:
+    - type: TREE_CLASS
+      tree_id: 0
+      path: G -> T0
+      tree_height: 5
+      fruit_total_weight: 0
+      fruit_total_count: 1
+      branch_total_count: 1
+      branches:
+        - type: BRANCH_CLASS
+          branch_id: 3
+          path: G -> T0 -> B3
+          branch_length: 2
+          fruit_total_weight: 0
+          fruit_total_count: 1
+          fruits:
+            - type: FRUIT_CLASS
+              fruit_id: 2
+              path: G -> T0 -> B3 -> F2
+              fruit_weight: 0
+=====END PRINT=====
