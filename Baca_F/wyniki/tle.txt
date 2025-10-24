@@ -1,3 +1,0 @@
-[[35mTLE[0m] ! 43_garden_plant_lot
-[[35mTLE[0m] ! 44_garden_plant_extract_lot
-[[35mTLE[0m] ! 48_garden_clone_tree
