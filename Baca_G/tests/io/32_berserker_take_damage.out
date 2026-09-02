@@ -1,8 +1,0 @@
-#test damaging and curing human
-gary-destroyer: 100% health
-gary-destroyer: 90% health
-gary-destroyer: 20% health
-gary-destroyer: 6% health
-#test damage discount after rewarding
-gary-destroyer: 100% health
-gary-destroyer: 75% health

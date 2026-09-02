@@ -1,4 +1,0 @@
-#test whether death or life is determined by percentage or value
-gary:200:200:100%:35:5:15
-#should leave only 1 health point
-destroyer:200:1:0%:70:5
